@@ -10,7 +10,7 @@ body {
 }
 
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw; /*보이는 화면의 100%*/
@@ -24,6 +24,6 @@ body {
 
 @media screen and (max-width: 380px) {
   .media-info-msg {
-    opacity: 0;
+    display: none;
   }
 }
